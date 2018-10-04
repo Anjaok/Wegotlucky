@@ -1,0 +1,58 @@
+body,html{
+  height: :100%;
+  }
+  .im{
+height:auto ;
+width: 100%;
+background-size: cover;
+display:block;
+justify-content: center;
+}
+
+#image1{orientation:/* FIXME:  */;
+image-resolution: from-image;
+back}
+
+.headin{ font-size:15em ;
+    font-stretch: expanded;
+    font-family: Lucida Sans;
+    align-content: center;
+  }
+
+#le{ break-after: region;
+  height: 200px;
+    width: 200px;}
+
+#a1{float: right;
+  color: white;
+  align-items: stretch;
+  break-after:auto;
+    font-size: 2em;
+  position:absolute; }
+
+#a2{float:left;
+  color: white;
+  align-items: flex-start;
+     font-size: 180%;}
+
+@media screen and  (min-widht: 1024px){
+  .headin{display:none;}}
+
+button {
+      background-color: #4CAF80; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  }
+  .a{
+    position:relative;
+    background-image: url("drums.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:100%;
+  }
